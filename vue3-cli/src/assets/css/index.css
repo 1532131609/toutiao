@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    border-bottom: 0.5px solid #aaa;
+    padding: 5px 0;
+  }
+  .card-l{
+    flex: 6;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .card-l .title{
+    font-weight: 550;
+    font-size: 16px;
+  }
+  .card-l .time{
+    font-size: 13px;
+    color: #999;
+  }
+  .card-r{
+    flex: 4;
+    margin-left: 3px;
+  }
+  .card-r img{
+    width: 150px;
+    height: 100px;
+  }
+  .fixedTab{
+    position: fixed;
+    top: 54px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+  }
+  .column{
+    margin-top: 98px;
+    margin-bottom: 50px;
+  }
+  .detail{
+    margin-top: 45px;
+    padding: 0 5px;
+}
